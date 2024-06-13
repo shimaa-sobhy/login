@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        body {
+            background-color: #24353F;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="mb-3 my-5 w-75 m-auto p-5" style="box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);">
+            <h1 class="text-info mb-3">Smart Login System</h1>
+            <input style="background: none; color: aliceblue;" type="email" id="loginEmail" class="form-control mb-3" placeholder="Enter your Email" aria-describedby="helpId">
+            <input style="background: none;color: aliceblue; " type="password" id="loginPassword" class="form-control mb-3" placeholder="Enter your password" aria-describedby="helpId">
+            <p class="text-center text-danger my-3 input-warning d-none">All inputs are required</p>
+            <p class="text-center text-danger my-3 email-exist d-none">The email is already exist</p>
+            <p class="text-success text-center my-3 d-none successful-signup">Success</p>
+            <button type="button" class="btn btn-outline-info w-100 login-btn my-2">Login</button>
+            <p class="text-white">Don’t have an account? <a href="signup.htm" class="text-white">Sign in</a></p>
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
